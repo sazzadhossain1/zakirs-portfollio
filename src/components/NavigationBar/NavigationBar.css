@@ -1,0 +1,159 @@
+nav {
+  /* background-color: white; */
+  background-color: black;
+  color: white;
+  font-family: Josefin Sans;
+  /* font-family: "Open Sans", sans-serif; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+.navigation_flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 75%;
+  margin: auto;
+}
+.main_menu_ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.main_menu_ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.main_menu_ul li a:hover {
+  color: #24cdd5;
+}
+.faBars {
+  display: none;
+}
+.services_div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.services_div:hover {
+  color: #24cdd5;
+}
+.faAngleDown {
+  margin-left: 5px;
+}
+.ABAACORP {
+  margin-right: 50px;
+  font-size: 20px;
+}
+.natigation_logo {
+  width: 28%;
+  padding-top: 10px;
+}
+/* NASTED MENU START */
+
+.nasted_ul_div {
+  /* display: none; */
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 100%;
+}
+
+.nasted_ul {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  position: absolute;
+  text-align: left;
+  top: 52px;
+  /* left: 50px; */
+  right: 300px;
+}
+.nasted_ul div li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.services_li:hover .nasted_ul_div {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+/* NASTED MENU END */
+
+@media screen and (max-width: 900px) {
+  .navigation_flex_div {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation_flex_div {
+    width: 100%;
+    height: 35px;
+  }
+  .natigation_logo {
+    padding: 0;
+  }
+  .main_menu_ul {
+    /* display: none; */
+    flex-direction: column;
+
+    position: absolute;
+    top: 50px;
+    background-color: black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: -280px;
+
+    text-align: right;
+  }
+  .side_menu_open {
+    left: 0;
+  }
+  .main_menu_ul li {
+    width: 100%;
+    text-align: left;
+    margin-left: -40px;
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  nav {
+    padding: 20px;
+  }
+  .faBars {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  /* NASTED UL START */
+  .nasted_ul {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 80px;
+    width: 100%;
+    left: 100px;
+  }
+  .nasted_ul div {
+    width: 100%;
+  }
+  .nasted_ul div li {
+  }
+  /* NASTED UL END */
+}
