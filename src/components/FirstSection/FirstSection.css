@@ -1,0 +1,64 @@
+.firstSection_parent_div {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: "Oswald", sans-serif;
+}
+.firstSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 50px;
+  width: 65%;
+  margin: auto;
+}
+.first_section_photo_div {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.firstSectionPhoto {
+  position: absolute;
+  /* top: 100px; */
+  bottom: 0;
+  left: 0;
+}
+/* .aboutBgShapeImg {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 70%;
+} */
+.heroSectionPhoto {
+  max-width: 200%;
+  position: relative;
+  z-index: 999;
+  /* background-color: rgba(0, 0, 0, 0.582); */
+}
+.first_section_text_div {
+  text-align: left;
+}
+.first_section_text_div h1 {
+  font-size: 40px;
+}
+.first_section_text_div p {
+  line-height: 25px;
+}
+.download_cv {
+  background-color: #08d665;
+  border: none;
+  color: white;
+  padding: 15px;
+  width: 40%;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 50px;
+}
+
+.download_cv:hover {
+  background-color: black;
+  color: #08d665;
+  border: 1px solid #08d665;
+}
