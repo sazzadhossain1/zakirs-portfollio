@@ -1,0 +1,50 @@
+.hero_pareni_div {
+  background-image: url("../../accets/heroSectionPhoto/heroOne.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.heor_grid_div {
+  display: flex;
+  align-items: center;
+
+  /* background-color: red; */
+
+  width: 100%;
+  margin: auto;
+}
+.hero_photo_div {
+  /* background-color: aquamarine; */
+}
+.hero_person_photo {
+  max-width: 100%;
+}
+.hero_text_div {
+  text-align: left;
+  /* background-color: #08d665; */
+  margin-right: -300px;
+  margin-left: 200px;
+}
+.hero_text_div h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  /* font-weight: 700; */
+}
+.hero_text_div p {
+  border-left: 3px solid #08d665;
+  padding-left: 15px;
+}
+.imagination {
+  color: #08d665;
+}
+
+.getting_started_btn {
+  background-color: #08d665;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}

@@ -78,7 +78,7 @@ const NavigationBar = () => {
                   }
                 }}
               >
-                Services
+                News
               </Link>
             </li>
 
@@ -107,22 +107,11 @@ const NavigationBar = () => {
                   }
                 }}
               >
-                Portfolio
+                Press
               </Link>
             </li>
             <li>
               <Link to="/Blog">Blog</Link>
-            </li>
-            {/* <li>
-              <Link>Careers</Link>
-            </li>
-            <li>
-              <Link>Support</Link>
-            </li> */}
-            <li>
-              <Link to="https://mail.hostinger.com/" target="_blank">
-                Login
-              </Link>
             </li>
           </ul>
         </div>
