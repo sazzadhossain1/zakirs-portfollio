@@ -40,7 +40,8 @@
   text-align: left;
 }
 .first_section_text_div h1 {
-  font-size: 40px;
+  font-size: 35px;
+  text-transform: uppercase;
 }
 .first_section_text_div p {
   line-height: 25px;
