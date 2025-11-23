@@ -1,0 +1,24 @@
+.footer_parent_div {
+  background: url("../../accets/footerPhoto/footer-bg.png");
+  background-position: center;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.footer_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  width: 75%;
+  margin: auto;
+}
+.footer_parent_div div {
+  text-align: left;
+}
+.footer_Copyright_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-top: 2px solid gray;
+}

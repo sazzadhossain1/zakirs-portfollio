@@ -4,6 +4,7 @@
   padding: 10px;
   font-family: "Oswald", sans-serif;
   /* height: 600px; */
+  padding-bottom: 70px;
 }
 .second_section_text_grid_div {
   display: grid;
