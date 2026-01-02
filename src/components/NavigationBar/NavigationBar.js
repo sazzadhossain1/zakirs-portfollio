@@ -78,7 +78,7 @@ const NavigationBar = () => {
                   }
                 }}
               >
-                News
+                Videos
               </Link>
             </li>
 
@@ -93,7 +93,7 @@ const NavigationBar = () => {
                   }
                 }}
               >
-                Contact
+                Images
               </Link>
             </li>
             <li>
@@ -107,11 +107,11 @@ const NavigationBar = () => {
                   }
                 }}
               >
-                Press
+                Blog
               </Link>
             </li>
             <li>
-              <Link to="/Blog">Blog</Link>
+              <Link to="">Contact</Link>
             </li>
           </ul>
         </div>
